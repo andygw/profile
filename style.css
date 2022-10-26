@@ -1,0 +1,111 @@
+/* Color palette based on:
+https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25 */
+
+body {
+  background-color: #fefae0;
+  font-family: 'Open Sans', sans-serif;
+  color: #606c38;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #283618;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 25px ;
+}
+
+h2 {
+  font-size: 23px ;
+}
+
+a {
+  color: #bc6c25;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #dda15e;
+}
+
+i {
+  font-size: 40px;
+  color: #606c38;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  box-shadow: 0px 0px 15px rgba(188, 108, 37, 0.3);
+  border-radius: 10px;
+  margin: 40px auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid rgba(221, 161, 94, 0.3);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.btn-green {
+  background-color: #606c38;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 3px;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+}
+
+#intro-text {
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
