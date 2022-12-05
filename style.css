@@ -1,23 +1,25 @@
-/* Color palette based on:
-https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25 */
+/*
+Color palette based on:
+https://coolors.co/palette/006d77-83c5be-edf6f9-ffddd2-e29578
+*/
 
 body {
-  background-color: #fefae0;
+  background-color: #edf6f9;
   font-family: 'Open Sans', sans-serif;
-  color: #606c38;
+  color: #e29578;
   font-size: 18px;
   line-height: 1.5;
 }
 
 h1, h2, h3 {
   font-family: 'Raleway', sans-serif;
-  color: #283618;
+  color: #006d77;
   line-height: 1.6;
   font-weight: 500;
 }
 
 h1 {
-  font-size: 25px ;
+  font-size: 28px ;
 }
 
 h2 {
@@ -25,17 +27,20 @@ h2 {
 }
 
 a {
-  color: #bc6c25;
   text-decoration: none;
 }
 
 a:hover {
-  color: #dda15e;
+  color: #edf6f9;
 }
 
 i {
   font-size: 40px;
-  color: #606c38;
+  color: #83C5BE;
+}
+
+i:hover {
+  color: #006d77;
 }
 
 .container {
@@ -44,7 +49,7 @@ i {
 }
 
 .card {
-  box-shadow: 0px 0px 15px rgba(188, 108, 37, 0.3);
+  box-shadow: 0px 0px 15px #ffddd2;
   border-radius: 10px;
   margin: 40px auto;
 }
@@ -60,7 +65,7 @@ i {
 .card-white {
   background: white;
   padding: 30px;
-  border: 1px solid rgba(221, 161, 94, 0.3);
+  border: 1px solid #ffddd2;
 }
 
 .list-inline {
@@ -74,10 +79,15 @@ i {
 }
 
 .btn-green {
-  background-color: #606c38;
+  background-color: #83c5be;
   color: white;
   padding: 15px 20px;
   border-radius: 3px;
+}
+
+.btn-green:hover {
+  box-shadow: 0 0 6px 1px  #83c5be;
+  background-color: #006d77;
 }
 
 #profile-pic {
